@@ -7,6 +7,83 @@
 @import 'schedule';
 @import 'staffer';
 
+// ==================== // 
+// Qian addition starts //
+// ==================== // 
+
+.site-header {
+  height: 240px;
+  max-height: 240px;
+  border-bottom: none;
+} 
+
+.site-logo{
+  height: 500px;
+  max-height: 500px;
+}
+
+a abbr[title] {
+  border-bottom: none;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.7rem !important;
+}
+
+.announcement, .main-content .module, .module {
+  box-shadow: none !important;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: black;
+}
+
+.readings {
+  text-size-adjust: small;
+}
+
+.label-hw-release:not(g) {
+  display: inline-block;
+  padding: 0.16em 0.56em;
+  margin-right: $sp-2;
+  margin-left: $sp-2;
+  color: black;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+  @include fs-2;
+}
+
+.label-hw-due:not(g) {
+  display: inline-block;
+  padding: 0.16em 0.56em;
+  margin-right: $sp-2;
+  margin-left: $sp-2;
+  color: $green-200;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $green-200;
+
+  @include fs-2;
+}
+
+// ================== // 
+// Qian addition ends //
+// ================== // 
+
 // Overrides
 code {
   font-size: 14px;

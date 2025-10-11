@@ -1,11 +1,11 @@
 ---
-name: Kevin Lin
+name: Qian Yang
 role: Instructor
-email: me@example.com
-website: https://kevinl.info
+email: qianyang@cornell.edu
+website: qianyan.co
 photo: kevin.jpg
-meta:
-  Office Hours: Somewhere on the internet
+# meta:
+#   Office Hours: Somewhere on the internet
 ---
 
-[Schedule an appointment](#){: .btn .btn-outline }
+<!-- [Schedule an appointment](#){: .btn .btn-outline } -->
