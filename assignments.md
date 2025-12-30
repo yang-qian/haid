@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Assignments
-permalink: assignments
+permalink: Assignmentss
 has_children: true
-nav_order: 3
+nav_order: 4
 ---
 
 # Course Projects

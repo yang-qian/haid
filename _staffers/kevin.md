@@ -1,11 +1,9 @@
 ---
-name: Qian Yang
-role: Instructor
-email: qianyang@cornell.edu
-website: qianyan.co
-photo: kevin.jpg
-# meta:
-#   Office Hours: Somewhere on the internet
+name: Kevin Chang
+role: Teaching Assistant
+email: ckc84@cornell.edu
+website: N/A
+photo: kevin.jpeg
 ---
 
-<!-- [Schedule an appointment](#){: .btn .btn-outline } -->
+I am a senior majoring in Information Science.

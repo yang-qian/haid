@@ -33,7 +33,17 @@ abbr[title] {
 h1 {
   font-weight: bold;
   font-size: 1.7rem !important;
+  line-height: 100px;
 }
+
+h2 {
+  font-size: 1.125rem !important
+}
+
+h4 {
+  font-size: 0.85rem !important
+}
+
 
 .announcement, .main-content .module, .module {
   box-shadow: none !important;
@@ -43,7 +53,7 @@ h1 {
 }
 
 .readings {
-  text-size-adjust: small;
+  font-size: 13px;
 }
 
 .label-hw-release:not(g) {

@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Office Hour
+title: Weekly Schedule
 description: Course weekly schedule and office hour booking links.
-nav_order: 4
+nav_order: 3
 ---
 
 # Weekly Schedule
+
 
 {% for schedule in site.schedules %}
 {{ schedule }}

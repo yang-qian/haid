@@ -1,5 +1,7 @@
 ---
 timeline:
+  - '8:00 AM'
+  - '8:30 AM'
   - '9:00 AM'
   - '9:30 AM'
   - '10:00 AM'
@@ -19,48 +21,32 @@ timeline:
   - '5:00 PM'
   - '5:30 PM'
 schedule:
+# 75min per meeting x 2 (TR), 10:10am-11:25am or 8:40am-9:55am
+# 160min per meeting x 1 (MTWRF), 8:30-11am or 11:15-1:45 or 2-4:30
+# https://catalog.cornell.edu/enrollment-credit-requirements/class-meetings/
+# "free-time zone": Mondays through Thursdays from 4:25pm to 7:30pm, Fridays after 4:25pm, Saturdays after 12:05pm, and all day Sunday.
+# 
+# - 3 credits
+# --- in class expectation = 2250 min/semester (2.5hrs x 15 week semester);
+# --- out-of-class expectation: 4500 min/semester (5hrs x 15 week semester).
+# source: https://vpe.enrollment.cornell.edu/credit-hours/
   - name: Monday
-    events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
   - name: Tuesday
   - name: Wednesday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: Assignment Due 8:30am
+        start: 8:30 AM
+        end: 9:00 AM
+        location: online
   - name: Thursday
   - name: Friday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
+        start: 8:30 AM
+        end: 11:30 AM
+        location: Upson 142
+      - name: Office Hour
         start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        end: 12:15 AM
+        location: Qian Yang (Upson 142)
 ---
